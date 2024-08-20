@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>RECIPE BOOK.</h1>
+
+            <form>
+                <input 
+                type="text" 
+                placeholder="What do you want to eat?"
+                class="searchBox"
+                />
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+        
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your recipes...</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-button"> 
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+     
+    
+</body>
+</html>
